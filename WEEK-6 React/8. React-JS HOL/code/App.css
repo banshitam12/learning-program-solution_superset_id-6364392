@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.counter-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.counter-container h2 {
+  color: #333;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+.count-display {
+  margin: 20px 0;
+}
+
+.count-display p {
+  font-size: 18px;
+  margin: 12px 0;
+  color: #555;
+}
+
+.buttons {
+  margin: 25px 0;
+}
+
+.entry-btn, .exit-btn {
+  padding: 12px 24px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.entry-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.entry-btn:hover {
+  background-color: #45a049;
+}
+
+.exit-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.exit-btn:hover {
+  background-color: #da190b;
+}
+
+.current-count {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}
